@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetObject xmlns="http://chs.harvard.edu/xmlns/cite">
+    <request>
+        <urn>urn:cite:fufolio:CatesbyHS212.018</urn>
+    </request>
+    <reply datans="fufolio" datansuri="http://classics.furman.edu/datans">
+        <citeObject urn="urn:cite:fufolio:CatesbyHS212.018">
+            <citeProperty name="RV" label="Recto or verso" type="string">recto</citeProperty>
+            <citeProperty name="MS" label="MS label" type="string">
+                Sloane Herbarium, Hortus Siccus 212: Mark Catesby, Carolina Plants, vol. 1
+            </citeProperty>
+            <citeProperty name="Siglum" label="MS siglum" type="string">CatesbyHS212</citeProperty>
+            <citeProperty name="Sequence" label="Internal sequence number" type="number">21</citeProperty>
+        </citeObject>
+    </reply>
+</GetObject>

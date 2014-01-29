@@ -1,0 +1,145 @@
+body { 
+	background-color: white; 
+	color: maroon; 
+	font-size: 10pt;
+	font: normal 1em/1.3em 'Quicksand', sans-serif;
+	color: #555;
+}
+
+
+
+/* headers */
+h1, h2, h3 {
+	color:#111;
+	letter-spacing:0px;
+}
+
+header h1 {
+	font: normal 1em Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-1px;
+}
+
+header h2 {
+	color: white;
+}
+
+header p {
+	color: white;
+	margin-left: 15px;	
+}
+
+header a {
+	color: white;
+	padding: 3px;
+}
+
+header a:hover {
+	background-color: #664;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; color:#74743D; }
+h3 { font-size: 1.5em; color:#74743D; letter-spacing: 0px;}
+
+p, h1, h2, h3 {
+	margin: 10px 15px;
+	padding: 0;
+}
+
+
+
+
+a {
+text-decoration: none;
+color: navy;
+}
+
+a:hover {
+background-color: #ddd;
+}
+
+ul {
+margin-left: 5px;
+padding-left: 0px;
+margin-right: 10px;
+list-style-type: none;
+
+}
+
+li {
+margin: 5px;
+padding: 5px;
+float: left;
+width: auto;	
+}	 
+
+li:nth-child(even) {
+background-color: #fff8f8;
+}
+
+li:hover {
+background-color: #ddd;
+}
+
+.list {
+float: left;
+}
+
+.no-float {
+	float: none;
+	background-color: white;
+}
+
+.caption {
+	display: block;
+	font-size: 75%;
+	padding: 5px;
+}
+
+img	{
+display: block;
+margin: 5px;
+border: 1px solid #DADADA;
+padding: 8px;
+background-color: #CDC7AF;
+}
+
+.xref, .commentary {
+clear: both;
+margin: 5px;
+}
+
+.commentary {
+font-size: 100%;
+color: #4D0E0B;
+/* 
+font: normal 14pt Georgia, "Times New Roman", Times, serif;
+*/
+}
+
+header {
+background: #FFF url(DSC_6001.jpg) repeat-x 0 0;
+height: 100px;
+}
+
+header h1 {
+color: #EFE1AF;
+padding-top: 0px;
+font-size: 2.5em;
+}
+
+footer, .deemphasis {
+font-size: 85%;
+color: #74743D;
+}
+
+footer {
+	border-top: 1px solid #74743D;
+	clear: both;
+}
+
+.contents {
+display: block;
+margin-bottom: 1em;
+
+}
